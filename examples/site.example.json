@@ -1,0 +1,10 @@
+{
+  "layout": "corporate-a",
+  "theme": "mono",
+  "analytics_id": "",
+  "site": {"lang": "en", "brand": "ACME", "tagline": "Consulting", "logo": "", "nav": "",
+           "footer": "", "copyright": "&copy; ACME", "lang_switch": ""},
+  "pages": [{"file": "index.html", "title": "ACME", "description": "Example", "eyebrow": "Hello",
+             "h1": "Example site", "lead": "Generated with vitrine-kit.", "actions": "",
+             "hero_image": "", "body": "", "stats": ""}]
+}

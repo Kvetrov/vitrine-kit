@@ -1,0 +1,6 @@
+:root{
+  --ink:#111417;--ink-2:#41474d;--muted:#7b828a;--paper:#fafafa;--paper-2:#eef0f2;
+  --line:#dde1e5;--accent:#3a6df0;--accent-2:#2649b3;--ice:#e6ecfd;
+  --wrap:1100px;--radius:6px;
+  --font:"Helvetica Neue",Helvetica,Arial,"Segoe UI",sans-serif;
+}
