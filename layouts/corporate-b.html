@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+{{head}}<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/vk-core.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">{{logo}}<span><strong>{{brand}}</strong><small>{{tagline}}</small></span></a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">Menu</button>
+    <nav class="site-nav">{{nav}}</nav>
+  </div>
+</header>
+<main>
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">{{eyebrow}}</p>
+      <h1>{{h1}}</h1>
+      <p class="lead">{{lead}}</p>
+      <div class="actions">{{actions}}</div>
+    </div>
+    <figure class="photo photo-hero"><img src="{{hero_image}}" alt="" onerror="this.style.visibility='hidden'"></figure>
+  </div>
+</section>
+<section class="band"><div class="wrap stats">{{stats}}</div></section>
+{{body}}
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">{{footer}}</div>
+  <div class="wrap footer-bottom"><span>{{copyright}}</span><span class="lang">{{lang_switch}}</span></div>
+</footer>
+<script src="assets/vk-ui.js"></script>
+</body>
+</html>
