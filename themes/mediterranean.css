@@ -1,0 +1,8 @@
+:root{
+  --ink:#1d2527;--ink-2:#46504f;--muted:#7a817c;--paper:#f7f4ee;--paper-2:#ede6da;
+  --line:#ddd3c3;--accent:#8a6a3b;--accent-2:#6b5029;--ice:#efe6d6;
+  --wrap:1140px;--radius:2px;
+  --font:"Helvetica Neue",Helvetica,Arial,"Segoe UI",sans-serif;
+  --serif:Georgia,"Times New Roman",serif;
+}
+h1,h2,.stats strong{font-family:var(--serif);font-weight:400}
