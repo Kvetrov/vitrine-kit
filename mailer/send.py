@@ -13,7 +13,8 @@ def load_settings(path="deploy/settings.env"):
 
 
 def send(name, email, message):
-    load_settings()
+    if os.path.exists("deploy/settings.env"):
+        load_settings()
     msg = EmailMessage()
     msg["Subject"] = f"[contact] {name}"
     msg["From"] = os.environ["SMTP_USER"]
