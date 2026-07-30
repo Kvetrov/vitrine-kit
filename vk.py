@@ -2,7 +2,7 @@
 """vitrine-kit: render a static showcase site from a JSON description."""
 import json, pathlib, shutil, sys
 
-VERSION = "1.4.0"
+VERSION = "1.4.1"
 ROOT = pathlib.Path(__file__).parent
 
 
