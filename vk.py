@@ -2,7 +2,7 @@
 """vitrine-kit: render a static showcase site from a JSON description."""
 import json, pathlib, shutil, sys
 
-VERSION = "1.4.1"
+VERSION = "1.4.2"
 ROOT = pathlib.Path(__file__).parent
 
 
@@ -10,6 +10,8 @@ def head_extra(cfg):
     head = ""
     head += f'<meta name="generator" content="vitrine-kit {VERSION}">\n'
     head += f"<!-- vk: layout {cfg['layout']} / theme {cfg['theme']} -->\n"
+    if cfg.get("og_image"):
+        head += f'<meta property="og:image" content="{cfg["og_image"]}">\n'
     if cfg.get("analytics_id"):
         aid = cfg["analytics_id"]
         head += (f'<script async src="https://www.googletagmanager.com/gtag/js?id={aid}"></script>\n'
